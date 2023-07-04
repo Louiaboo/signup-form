@@ -7,8 +7,8 @@
     <title>Sign-up</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="odin">
+      <div class="title-container">
         <img
           src="photos/odin-lined.png"
           alt="Ferns in the Washington Forest by Halie West"
@@ -17,28 +17,36 @@
       </div>
       <div class="footer">Photo by Halie West on Unsplash</div>
     </header>
-    <body>
-      <h3>
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams. Sign up
-        <em>now</em> to get started.
-      </h3>
-      <h3>You <em>know</em> you want to.</h3>
+    <div class="form-container">
+      <header class="lorem">
+        <h3>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </h3>
+        <h3>You <em>know</em> you want to.</h3>
+      </header>
       <form action="#">
         <legend>Let's do this!</legend>
-        <label for="name">FIRST NAME</label>
-        <input type="text" id="name" name="name" />
-        <label for="surname">LAST NAME</label>
-        <input type="text" id="surname" name="surname" />
-        <label for="email">EMAIL</label>
-        <input type="email" id="email" name="email" />
-        <label for="phone">PHONE NUMBER</label>
-        <input type="tel" id="phone" name="phone" />
-        <label for="password">PASSWORD</label>
-        <input type="password" id="pass" name="pass" />
-        <label for="confirmpass">CONFIRM PASSWORD</label>
-        <input type="password" id="confirmpass" name="confirmpass" />
+        <div class="form-row">
+          <label for="name">FIRST NAME</label>
+          <input type="text" id="name" name="name" />
+          <label for="surname">LAST NAME</label>
+          <input type="text" id="surname" name="surname" />
+        </div>
+        <div class="form-row">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" />
+          <label for="phone">PHONE NUMBER</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div class="form-row">
+          <label for="password">PASSWORD</label>
+          <input type="password" id="pass" name="pass" />
+          <label for="confirmpass">CONFIRM PASSWORD</label>
+          <input type="password" id="confirmpass" name="confirmpass" />
+        </div>
       </form>
-    </body>
+    </div>
   </body>
 </html>

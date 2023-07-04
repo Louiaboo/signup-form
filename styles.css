@@ -12,9 +12,10 @@ body {
   padding: 0;
   border: 0;
   display: flex;
+  flex-direction: column;
 }
 
-header {
+.odin {
   height: 200px;
   width: 100%;
   display: flex;
@@ -25,7 +26,7 @@ header {
   background-image: url("photos/halie-west-leaf.jpg");
 }
 
-.container {
+.title-container {
   height: 150px;
   width: 100%;
   margin-top: 22px;
@@ -58,7 +59,11 @@ h1 {
 }
 
 @media only screen and (min-width: 700px) {
-  header {
+  body {
+    flex-direction: row;
+  }
+
+  .odin {
     height: 100%;
     max-width: 32em;
     align-items: initial;
@@ -66,7 +71,7 @@ h1 {
     background-position: center;
   }
 
-  .container {
+  .title-container {
     margin-top: 250px;
   }
 }
