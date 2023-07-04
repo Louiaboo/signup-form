@@ -15,6 +15,11 @@ body {
   flex-direction: column;
 }
 
+a:link,
+a:visited {
+  color: white;
+}
+
 .odin {
   height: 200px;
   width: 100%;
