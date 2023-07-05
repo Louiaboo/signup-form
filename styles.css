@@ -131,10 +131,23 @@ legend {
 button {
   padding: 1rem 3rem;
   border-radius: 15px;
+  border: none;
   font-weight: bold;
   background-color: #596D48;
+  outline: none;
   color: #F6F7F8;
   cursor: pointer;
+  box-shadow: 0 6px #404E34;
+}
+
+button:hover {
+  background-color: #4C5D3D;
+}
+
+button:active {
+  background-color: #4C5D3D;
+  box-shadow: 0 3px #36422C;
+  transform: translateY(3px);
 }
 
 @media only screen and (min-width: 750px) {
